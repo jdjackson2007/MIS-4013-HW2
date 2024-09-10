@@ -1,9 +1,0 @@
-<?php
-$pageTitle = "Post-Result";
-include "view-header.php";
-?>
-    <h1>Post-Result</h1>
-
-<?php
-include "view-footer.php";
-?>

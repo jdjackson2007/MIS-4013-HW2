@@ -1,19 +1,12 @@
 <?php
-$pageTitle = "Post-Result";
+$pageTitle = "Post";
 include "view-header.php";
 ?>
-    <h1>Post-Result</h1>
+    <h1>Post</h1>
+<form Method="post" Action="post-result.php">
+  <input type="text" Name="my-name">
+  <input type="submit" value="Post data">
+  </form>
 <?php
-if (is($_POST['my-name'])){
-?>
-<p> The Value Sent Is: </p>
-<?php
-echo $_POST'my-name';
-}
-else{
-?>
-<p> Nothing Posted to the Page!<p>
-<?php
-}
 include "view-footer.php";
 ?>

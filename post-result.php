@@ -8,10 +8,12 @@ if (isset($_POST['my-name'])) {
     ?> 
 <p> The Value Sent Is!: </p>
 <?php
- echo $_POST['my-name'];}
+ echo $_POST['my-name'];
+}
 else{
   ?>
   <p> Nothing Posted To The Page! </p>
-<?php}
+<?php
+}
 include "view-footer.php";
 ?>

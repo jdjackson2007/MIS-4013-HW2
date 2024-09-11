@@ -11,8 +11,7 @@ include "view-footer.php";
 function getDisplay() {
     if (isset($_POST['my-name'])) { 
 return "<p> The Value Sent Is!: </p>" . $_POST['my-name'];
-}
-else{
+}else{
  return "<p> Nothing Posted To The Page! </p>";
 <?php
 }
